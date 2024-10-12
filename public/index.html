@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <ul>
+                <li><button onclick="showSection('home')">Home</button></li>
+                <li><button onclick="showSection('experience')">Experience</button></li>
+                <li><button onclick="showSection('projects')">Projects</button></li>
+                <li><button onclick="showSection('contact')">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content">
+            <h2>Home</h2>
+            <p>Hi, I'm Phanichanon Kaewrueng.</p>
+            <div class="profile-image">
+                <img src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t39.30808-6/455232846_1842036262946627_6707522367755930654_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kgXFQMtcK_YQ7kNvgHzaZY0&_nc_ht=scontent.fbkk8-4.fna&oh=00_AYAFzlD4kbG4hUEPabosj8piEwbpFOFlkR9iOS8S6HygAw&oe=66C7F4D1" alt=" ">
+            </div>
+            <h3>จุดแข็ง</h3>
+            <ul>
+                <li>มีความอดทนสูง</li>
+                <li>มุ่งมั่น ตั้งใจ เรียนรู้ไว</li>
+                <li>มีทักษะแก้ปัญหาเฉพาะหน้าได้ดี</li>
+            </ul>
+            <h3>จุดอ่อน</h3>
+            <ul>
+                <li>ใจร้อน</li>
+            </ul>
+            <h3>ทักษะ/ความสามารถพิเศษ</h3>
+            <ul>
+                <li>Programming Languages: JavaScript, Python, HTML/CSS</li>
+                <li>Photoshop</li>
+                <li>Tools: GitHub</li>
+                <li>เล่นกีฬาได้หลากหลาย</li>
+                <li>รำไทยได้หลายรูปแบบ</li>
+                <li>มีทักษะทางวิชาการ</li>
+            </ul>
+            <h3>Projects</h3>
+            <ul>
+                <li><button onclick="showSection('projects')">View Projects</button></li>
+            </ul>
+        </section>
+
+        <section id="experience" class="content">
+            <h2>Experience</h2>
+            <h3>Experience</h3>
+            <ul>
+                <li>
+                    <strong> -เข้าร่วมอบรมการเพิ่มพูนทักษะการเขียนโปรแกรมด้วยการสร้างเกม โดยใช้ Python ร่วมกับ Pygame รุ่นที่ 3 </strong> 
+                    <img src="c:\640910300\640910300\LINE_ALBUM_อบรม ปี 1-4_240818_1.jpg"  class="experience-image">
+                </li>
+                <li>
+                    <strong>-เข้าร่วมอบรมการเขียนโปรแกรมประมวลผลภาพ โดยใช้ Python ร่วมกับ OpenCV</strong>
+                    <img src="c:\640910300\640910300\LINE_ALBUM_อบรม ปี 1-4_240818_2.jpg"  class="experience-image">
+                    
+                </li>
+                <li>
+                    <strong>-เข้าร่วมอบรมการเขียนโปรแกรมภาษา Pythone เบื้องต้น รุ่นที่ 4</strong>
+                    <img src="c:\640910300\640910300\LINE_ALBUM_อบรม ปี 1-4_240818_3.jpg"  class="experience-image">
+                    
+                </li>
+                <li>
+                    <strong>-เข้าร่วมอบรม Image Classification ด้วย CNN Model โดยใช้ Python ร่วมกับ TensorFlow</strong>
+                    <img src="c:\640910300\640910300\LINE_ALBUM_อบรม ปี 1-4_240818_5.jpg"  class="experience-image">
+                    
+                </li>
+                <li>
+                    <strong>-เข้าร่วมอบรมโครงการ Mind Fullness ของระบายศิลป์</strong>
+                    
+                </li>
+            </ul>
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <strong>ระดับประถมศึกษา : โรงเรียนบ้านทุ่งหนองแก้ว จังหวัดสุพรรณบุรี เกรดเฉลี่ย - </strong> 
+        
+                </li>
+                <li>
+                    <strong>ระดับมัธยมศึกษาตอนต้น : โรงเรียนหนองหญ้าไซวิทยา จังหวัดสุพรรณบุรี เกรดเฉลี่ย - </strong> 
+        
+                </li>
+                <li>
+                    <strong>ระดับมัธยมศึกษาตอนปลาย : โรงเรียนหนองหญ้าไซวิทยา จังหวัดสุพรรณบุรี เกรดเฉลี่ย 3.98 </strong> 
+        
+                </li>
+                <li>
+                    <strong>ระดับอุดมศึกษา : ปัจจุบันกำลังศึกษาอยู่ระดับชั้นปริญญาตรี ปีที่ 4 คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยศิลปากร</strong>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="projects" class="content" style="display: none;">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>นวัตกรรมต้นแบบรถหว่านปุ๋ยไนโตรเจนในนาข้าวอัจฉริยะ รุ่น 3</p>
+                <img src="c:\640910300\640910300\LINE_ALBUM_ผลงาน + นวัตกรรม ⚙️🔩🛠️_240818_1.jpg" alt="Project 1 Image" class="project-image">
+                <img src="c:\640910300\640910300\LINE_ALBUM_ผลงาน + นวัตกรรม ⚙️🔩🛠️_240818_7.jpg" alt="Project 1 Image" class="project-image">
+            </div>
+            <h3>Project 2</h3>
+            <p>NY Smart Microscope</p>
+            <img src="c:\640910300\640910300\LINE_ALBUM_ผลงาน + นวัตกรรม ⚙️🔩🛠️_240818_2.jpg" alt="Project 2 Image" class="project-image">
+         </div>
+            <h3>Project 3</h3>
+            <p>เครื่องบอกปริมาณความต้องการปุ๋ยไนโตรเจนในนาข้าว</p>
+            <img src="c:\640910300\640910300\LINE_ALBUM_ผลงาน + นวัตกรรม ⚙️🔩🛠️_240818_9.jpg" alt="Project 3 Image" class="project-image">
+        </div>
+        <h3>Project 4</h3>
+        <p>เครื่องดื่มน้ำสำหรับผู้ป่วยโรคไต</p>
+        <img src="c:\640910300\640910300\LINE_ALBUM_ผลงาน + นวัตกรรม ⚙️🔩🛠️_240818_5.jpg" alt="Project 4 Image" class="project-image">
+        </div>
+        <h3>Project 5</h3>
+        <p>ตั๋วรถไฟ</p>
+        </div>
+        </section>
+        
+
+        <section id="contact" class="content" style="display: none;">
+            <h2>Contact</h2>
+            <p>Email: kaewrueng_p@silpakorn.edu</p>
+            <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100014208129157&mibextid=ZbWKwL" target="_blank"> View Profile </a></p>
+            <p>Line ID: <a href="pnnkaewr18" target="_blank"> View Profile </a></p>
+            <p>Phone: <a href="0616583374" target="_blank"> View Profile </a></p>
+            <p>IG: <a href="https://www.instagram.com/nicxa_0318?igsh=MTBxaGhpa2h2dDJwaw==" target="_blank"> View Profile </a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Phanichanon Kaewrueng</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
